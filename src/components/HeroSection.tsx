@@ -8,12 +8,12 @@ const HeroSection = () => {
 
   return (
     <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-secondary/5" />
+      {/* Background Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/5 to-secondary/10" />
       
       {/* Decorative Elements */}
-      <div className="absolute top-20 right-0 w-96 h-96 bg-success/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-primary/10 rounded-full blur-3xl" />
+      <div className="absolute top-20 right-0 w-96 h-96 bg-secondary/20 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-80 h-80 bg-primary/20 rounded-full blur-3xl" />
 
       <div className="container-wide mx-auto px-4 md:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">

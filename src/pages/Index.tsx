@@ -5,12 +5,14 @@ import LegalSection from "@/components/LegalSection";
 import CalculatorSection from "@/components/CalculatorSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
+import BlogSection from "@/components/BlogSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen" style={{ background: 'var(--gradient-page)' }}>
       <Header />
       <main>
         <HeroSection />
@@ -19,9 +21,11 @@ const Index = () => {
         <CalculatorSection />
         <BenefitsSection />
         <HowItWorksSection />
+        <BlogSection />
         <CTASection />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };

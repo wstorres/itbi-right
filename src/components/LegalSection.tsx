@@ -20,7 +20,7 @@ const LegalSection = () => {
   ];
 
   return (
-    <section className="section-padding bg-background">
+    <section id="base-legal" className="section-padding">
       <div className="container-wide mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Side - Content */}
