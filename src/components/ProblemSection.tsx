@@ -20,7 +20,7 @@ const ProblemSection = () => {
   ];
 
   return (
-    <section className="section-padding bg-card">
+    <section id="problema" className="section-padding bg-card/50 backdrop-blur-sm">
       <div className="container-wide mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
