@@ -4,8 +4,14 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
+
+
+
+
 export default defineConfig(({ mode }) => ({
   server: {
+    base: '/itbi-right/',
+    plugins: [react()]
     host: "::",
     port: 8080,
     hmr: {
